@@ -21,7 +21,7 @@ namespace HTTPServer
             FileStream FS;
             try
             {
-                FS = new FileStream(@"D:\test.html", FileMode.Open, FileAccess.Read, FileShare.Read);
+                FS = new FileStream(@"D:\NewPtSite\PT\index.html", FileMode.Open, FileAccess.Read, FileShare.Read);
             }
             catch (Exception)
             {
